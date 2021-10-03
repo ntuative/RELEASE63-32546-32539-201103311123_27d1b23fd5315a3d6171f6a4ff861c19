@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<layout name="QuestAlert" width="226" height="331" version="0.1" uid="1D9BFFF2-4B2C-C544-8D72-B986261B1725">
+  <window>
+    <frame x="0" y="0" width="231" height="383" params="32769" style="0" name="main" color="0x03e3e3e" caption="${quest.reminder}">
+      <filters>
+        <DropShadowFilter distance="4" alpha="0.34901960784313724" blurX="4" blurY="4"/>
+      </filters>
+      <children>
+        <border x="0" y="0" width="218" height="351" params="2193" style="0"/>
+        <container x="5" y="5" width="218" height="346" params="2193" style="0" name="quest.container"/>
+      </children>
+    </frame>
+  </window>
+</layout>

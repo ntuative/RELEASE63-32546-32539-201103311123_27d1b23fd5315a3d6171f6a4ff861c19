@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<layout name="playlist_subwindow_nowplaying" width="261" height="56" version="0.1" uid="9364BAB9-407D-B6BC-A222-BE03292ABDD2">
+  <window>
+    <container x="0" y="0" width="261" height="56" params="16" style="0" name="now_playing_container">
+      <children>
+        <container_button x="8" y="3" width="46" height="46" params="17" style="2" name="button_pause" color="0x0cc0000" tags="PAUSE_PLAYBACK">
+          <children>
+            <bitmap x="14" y="13" width="18" height="20" params="16" style="0" name="pause_image"/>
+          </children>
+        </container_button>
+        <text x="63" y="4" width="353" height="21" params="16" style="0" caption="${playlist.editor.text.now.playing.in.your.room}">
+          <variables>
+            <var key="antialias_type" value="advanced" type="String"/>
+            <var key="auto_size" value="left" type="String"/>
+            <var key="font_face" value="Ubuntu" type="String"/>
+            <var key="font_size" value="16" type="uint"/>
+            <var key="text_style" value="bold" type="String"/>
+            <var key="mouse_wheel_enabled" value="false" type="Boolean"/>
+            <var key="bold" value="true" type="Boolean"/>
+          </variables>
+        </text>
+        <text x="63" y="23" width="69" height="17" params="16" style="0" name="now_playing_track_name" caption="Song%20Name" tags="SONG_NAME">
+          <variables>
+            <var key="antialias_type" value="advanced" type="String"/>
+            <var key="auto_size" value="left" type="String"/>
+            <var key="font_face" value="Ubuntu" type="String"/>
+            <var key="font_size" value="12" type="uint"/>
+            <var key="mouse_wheel_enabled" value="false" type="Boolean"/>
+          </variables>
+        </text>
+        <text x="63" y="36" width="63" height="15" params="16" style="0" name="now_playing_author_name" caption="Author%20Name" tags="AUTHOR_NAME">
+          <variables>
+            <var key="antialias_type" value="advanced" type="String"/>
+            <var key="auto_size" value="left" type="String"/>
+            <var key="font_face" value="Ubuntu" type="String"/>
+            <var key="font_size" value="10" type="uint"/>
+            <var key="mouse_wheel_enabled" value="false" type="Boolean"/>
+          </variables>
+        </text>
+      </children>
+    </container>
+  </window>
+</layout>
